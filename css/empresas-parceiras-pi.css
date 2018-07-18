@@ -1,0 +1,50 @@
+.item2 {
+    height: 150px;
+    width: px; 
+    display: flex;
+    margin-top: 3em !important;
+    margin-bottom: 1.5em !important;
+    align-items: center;
+    justify-content: center;
+}
+
+#empresas {
+    margin: 7em auto;
+    padding: 0px 0px;
+}
+
+.sombraempresa {
+}
+
+.item2 div img {
+    width: 200px !important;
+    height: 100px !important;
+}
+
+
+@media screen and (max-width:719px) {
+    .item2 {
+        height: 110px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    
+    
+    #empresas {
+        margin-top: 0em;
+        margin-bottom: 5em;
+    }
+    
+    
+    .item2 {
+        margin-top: 1.5em !important;
+    }
+    
+    .item2 div img {
+        width: 200px !important;
+        height: 100px !important;
+    }
+    
+}

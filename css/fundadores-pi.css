@@ -1,0 +1,93 @@
+#fundadores {
+    margin: 7em 0;
+    background: black;
+    padding: 5em 0;
+    margin-bottom: 0px;
+}
+
+.fundadoresbg {
+    display: flex;
+    margin: 3em auto;
+    margin-bottom: 0.5em;
+}
+
+.branco {
+    color: white;
+}
+
+.fotofundadores {
+    width: 273px;
+    height: 459px;
+    background: rgba(60, 60, 60, 0.56);
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+.fundadors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    margin: 2 5px;
+    cursor: pointer;
+    border: 1px solid rgba(54, 54, 54, 0.35);
+}
+
+.fundadors:hover {
+    border: 1px solid rgb(54, 54, 54);
+}
+
+.fundadors p {
+    margin-top: 1.5em;
+    color: white;
+}
+
+.textof {
+    text-align: center;
+    color: #7f7e7e !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+.redesf{
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    #fundadores {
+        margin-top: 5em;
+    }
+    
+    .fotofundadores {
+        width: 273px;
+        height: 459px;
+        min-height: 459px;
+        min-width: 273px;
+    }
+    
+    .fundadoresbg {
+        flex-direction: column;
+        margin-top: 1.5em;
+    }
+    
+    .fundadors {
+        margin-top: 2em;
+    }
+    
+    .fundadors:first-child {
+        margin-top: 0;
+    }
+    
+    .stitulo {
+        padding: 0 10px;
+    }
+}

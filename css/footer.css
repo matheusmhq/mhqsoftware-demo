@@ -1,0 +1,305 @@
+/* DESKTOP */
+@media screen and (min-width: 768px){
+    .sfooter {
+        width: 100%;
+        height: px;
+        display: flex;
+    }
+
+    .corsf {
+        background: #1fa0d6;
+    }
+
+    .sfseparado {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 25px;
+    }
+
+    .sfseparado:first-child {
+        padding: 0px 0px;
+    }
+
+    .sfseparado:last-child {
+        padding: 0px 0px;
+    }
+
+    .sfseparado2 {
+    }
+
+    .sfseparado2 p {
+        margin: px 0px; 
+    }
+
+    .descricaofooter {
+        margin-bottom: 2em;
+        margin-left: 10px;
+        color: rgb(217, 217, 217);
+        font-size: 1.1em;
+        font-family: 'Raleway', sans-serif;
+        width: 90%;
+    }
+
+    .comercialglobal p {
+        margin: 10px 0px;
+        text-transform: uppercase;
+        margin-left: 10px;
+        color: #ffffff;
+        font-size: 0.9em;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+    }
+    
+    .comercialglobal {
+        margin-bottom: 7em;
+    }
+
+    .enderecofooter p {
+        margin: 30px 0px;
+        margin-left: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 1em;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+    }
+
+    h6 {
+        color: rgb(255, 255, 255);
+        font-size: 1em;
+        text-transform: uppercase;
+        border-bottom: .5px solid rgba(255, 255, 255, 0.50);
+        margin-top: 4em;
+        margin-bottom: 1em;
+        padding-bottom: 10px;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+        /* //// MENU DESKTOP //// */
+    #divMenufooter {
+        width: 100%;
+        margin: 0 auto;   
+    }
+
+    .menufooter ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .menufooter ul li a {
+        display: block;
+        padding: 5px 1px;
+        margin-bottom: 15px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        width: 90%;
+        border-bottom: 1px solid;
+        margin-left: 10px;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.4s;
+    }
+
+     .menufooter ul li a:hover {
+         color: rgba(255, 255, 255, 0.67);
+    }
+    
+     
+    /* REDES DESKTOP */ 
+    #redesfooter {
+        display: flex;
+    }
+
+    .redesbgfooter {
+        width: 80%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        display: none;
+    }
+}
+
+
+
+/* MOBILE */ 
+@media screen and (max-width: 767px){
+    .sfooter {
+        width: 100%;
+        height: px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .corsf {
+        background: #1fa0d6;
+    }
+
+    .sfseparado {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .sfseparado2 {
+    }
+
+    .sfseparado2 p {
+        margin: px 0px; 
+    }
+
+    .descricaofooter {
+        margin-bottom: 2em;
+        margin-left: 10px;
+         color: rgb(217, 217, 217);
+        font-size: 1.1em;
+        font-family: 'Raleway', sans-serif;
+        width: 95%;
+    }
+
+    .comercialglobal p {
+        margin: 10px 0px;
+        text-transform: uppercase;
+        margin-left: 10px;
+        color: #ffffff;
+        font-size: 0.9em;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+    }
+
+    .enderecofooter p {
+        margin: 30px 0px;
+        margin-left: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 1em;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+    }
+    
+    .enderecofooter {
+        margin-bottom: 4em;
+    }
+
+    h6 {
+        color: rgb(255, 255, 255);
+        font-size: 1em;
+        text-transform: uppercase;
+        border-bottom: .5px solid rgba(255, 255, 255, 0.50);
+        margin-top: 4em;
+        margin-bottom: 2em;
+        padding-bottom: 10px;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+
+
+        /* //// MENU MOBILE //// */
+    #divMenufooter {
+        width: 100%;
+        margin: 0 auto;   
+    }
+
+    .menufooter ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .menufooter ul li a {
+        display: block;
+        padding: 5px 1px;
+        margin-bottom: 15px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        width: 95%;
+        border-bottom: 1px solid;
+        margin-left: 10px;
+    }
+
+     .menufooter ul li a:hover {
+         color: rgba(255, 255, 255, 0.67);
+    }
+    
+    
+    /* REDES MOBILE */ 
+    #redesfooter {
+        display: flex;
+        align-items: center;
+    }
+
+    .redesbgfooter {
+        width: 100%;
+        display: flex;
+        height: 50px;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 3em;
+    }
+    
+    .redesbgfooterd {
+        display: none;
+    }
+    
+    .divfb {
+        flex-direction: column;
+        margin-top: 12px;
+    }
+    
+    .footerb div p {
+        margin-bottom: 10px;
+    }
+    
+    
+    .footerb {
+        height: 120px !important;
+    }
+    
+}
+
+.rmaior {
+    font-size: 1.5em;
+    width: 35px;
+    height: 35px;
+}
+
+.rmaior:hover {
+    background: #1a759c;
+}
+
+.margininsta {
+    margin-right: 10px;
+}
+
+
+
+/* FOOTER B */
+
+.footerb {
+    width: 100%;
+    height: 60px;
+    background: #2f2f2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerb div p {
+    color: white;
+    text-align: center;
+}
+
+.divfb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logofooter {
+    background: url(../_img/logos/logo-mobile.png) no-repeat center;
+    width: 100px;
+    height: 41px;
+}

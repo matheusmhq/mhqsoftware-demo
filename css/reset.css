@@ -1,0 +1,118 @@
+/* ====== RESET ======== */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: 100%
+}
+
+
+body {
+    background: #ffffff;
+    font-size: 16px;
+}
+
+/* CONTAINER */
+
+    /* CONFIG PRA MOBILE */
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+    /* CONFIG PRA DESKTOP */
+@media (min-width: 1130px) {
+    .container {
+        max-width: 1130px;
+        padding: 0px;
+    }  
+}
+
+
+
+/* PADRAO LETRAS GLOBAL */
+
+ /* DESKTOP */
+@media screen and (min-width: 768px) {
+    h3 {
+        font-size: 2.5em;
+        text-align: center;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    
+    .stitulo {
+        font-size: 1.2em;
+        text-align: center;
+        color: #9d9d9d;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+ /* MOBILE */
+@media screen and (max-width: 767px) {
+    h3 {
+        font-size: 1.7em;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.74);
+        font-family: 'Fira Sans', sans-serif;
+    }
+    
+    .stitulo {
+        font-size: 1em;
+        text-align: center;
+        color: #9d9d9d;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .iconepadrao {
+        font-size: 1.5em;
+    }
+}
+
+
+.diviconepadrao {
+    text-align: center;
+}
+
+.iconepadrao {
+    width: % !important;
+    text-align: center;
+    margin: 0 -5px;
+    color: #1fa0d6;  
+}
+
+
+/* PADRAO ICONE REDE SOCIAL */ 
+
+.redesh {
+    margin: 0px 5px;
+    color: #ffffff;
+    background: #1fa0d6;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.lastsemborda {
+    margin-right: 0;
+}
+
+.redesh:hover {
+    background: #1a759c;
+}
+

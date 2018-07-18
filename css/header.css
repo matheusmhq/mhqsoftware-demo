@@ -1,0 +1,163 @@
+
+#redes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btMenu {
+    border: none;
+    background: #ffffff;
+    color: #1fa0d6;
+    font-size: 0.8em;
+}
+
+.ac , .ac2 {
+    color: #1fa0d6 !important;
+}
+
+#redesmobile {
+    display: flex;
+}
+
+/* DESKTOP */ 
+@media screen and (min-width: 1000px) {
+    
+    #divheader {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    
+    .divisaomenu {
+        border: 2px solid #1fa0d6;
+        width: 100%;
+    }
+    
+    .btMenu {
+        display: none;
+    }
+    
+    #redesmobile {
+        display: none;
+    }
+    
+    .logo {
+        background: url(../img/logos/logo-desktop.png) no-repeat;
+        width: 150px;
+        height: 61px;
+    }
+    
+       /* //// MENU DESKTOP //// */
+    #divMenu {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .bgmenu {
+        background: #ffffff;
+        background-size: 15px 4px;
+        width: %;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .menu ul li a {
+        display: block;
+        padding: 14px 14px 13px 14px;
+        color: #000000;
+        text-transform: uppercase;
+        font-size: 1.1em;
+        font-weight: bold;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.4s;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+     .menu ul li a:hover {
+         color: #1fa0d6;
+    }
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 999px) {
+    
+    #divheader {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: .7em;
+        padding-bottom: .7em;
+    }
+    
+    .divlogomenu {
+        display: flex;
+        flex-direction: row !important;
+        width: 100% !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .divisaomenu {
+        border: 1px solid #1fa0d6;
+        width: 100%;
+    }
+    
+    #redes {
+       display: none;
+    }
+    
+    #redesmobile {
+        display: nne;
+    }
+    
+    .logo {
+        background: url(../img/logos/logo-mobile.png) no-repeat;
+        width: 100px;
+        height: 41px;
+    }
+    
+    /* //// MENU MOBILE //// */
+    #divMenu {
+        width: 100%;
+        margin: 0 auto;
+        display: none;   
+        margin-top: 1.5em;
+    }
+
+    .bgmenu {
+        background: #ffffff;
+        background-size: 15px 4px;
+        width: %;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .menu ul li a {
+        display: block;
+        padding: 14px 14px 13px 14px;
+        color: #000000;
+        text-transform: uppercase;
+        font-size: 0.9em;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+     .menu ul li a:hover {
+         color: #1fa0d6;
+    }
+}

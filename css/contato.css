@@ -1,0 +1,193 @@
+@media screen and (min-width: 768px) {
+    .fotocontato {
+        background: url(../img/contato/desktop.jpg) no-repeat center;
+        width: 100%;
+        height: 400px;
+        margin-bottom: 3em;
+    }   
+
+    .separador {
+        display: flex;
+        margin: 3em 0;
+    }
+    
+    .info {
+        background: rgba(206, 206, 206, 0.15);
+        padding: 1em;
+        margin-right: 1.5em;
+    }
+
+    .infoseparada {
+        display: flex;
+        margin: 1.5em 0;
+    }
+
+    h4 {
+        margin-left: 1em; 
+        font-size: 1em;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    .infoindividual p {
+        margin-left: 1em; 
+        margin-top: 1em;
+    }
+
+    .iconep {
+        color: #1fa0d6;
+        font-size: 1.3em;
+        height: 30px;
+    }
+
+    .configmapa {
+        width: 100%;
+        height: 350px;
+    }
+
+
+    .info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .formcontato {
+        width: 50%;
+    }
+
+    #fs {
+       border: none; 
+    }
+
+    #fs div {
+    }
+
+    #fs input {
+        width: 100%;
+        height: 40px;
+        margin: 0.2em 0;
+        border: .5px solid rgba(0, 0, 0, 0.21);
+        padding: 0 1em;
+        border-radius: 5px;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1em;
+    }
+
+    #fs input:last-child {
+        border: none;
+        background: #1fa0d6;
+        color: white;
+        font-size: 1em;
+        cursor: pointer;
+    }
+
+    #fs textarea {
+        width: 100%;
+        border: .5px solid rgba(0, 0, 0, 0.21);
+        padding: 1em;
+        border-radius: 5px;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1em;
+    }
+
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    .fotocontato {
+        background: url(../img/contato/mobile.jpg) no-repeat center;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 3em;
+    }
+    
+    .separador {
+        display: flex;
+        margin: 3em 0;
+        flex-direction: column;
+    }
+    
+    .info {
+        background: rgba(206, 206, 206, 0.15);
+        padding: 1em;
+    }
+    
+
+    .infoseparada {
+        display: flex;
+        margin: 1.5em 0;
+    }
+
+    h4 {
+        margin-left: 1em; 
+        font-size: 1em;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    .infoindividual p {
+        margin-left: 1em; 
+        margin-top: 1em;
+    }
+
+    .iconep {
+        color: #1fa0d6;
+        font-size: 1.3em;
+        height: 30px;
+    }
+
+    .configmapa {
+        width: 100%;
+        height: 350px;
+    }
+
+    .info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: 
+    }
+
+    .formcontato {
+        width: 100%;
+        margin-top: 4em;
+    }
+
+    #fs {
+       border: none; 
+    }
+
+    #fs div {
+    }
+
+    #fs input {
+        width: 100%;
+        height: 40px;
+        margin: 0.2em 0;
+        border: .5px solid rgba(0, 0, 0, 0.21);
+        padding: 0 1em;
+        border-radius: 5px;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1em;
+    }
+
+    #fs input:last-child {
+        border: none;
+        background: #1fa0d6;
+        color: white;
+        font-size: 1em;
+        cursor: pointer;
+    }
+
+    #fs textarea {
+        width: 100%;
+        border: .5px solid rgba(0, 0, 0, 0.21);
+        padding: 1em;
+        border-radius: 5px;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1em;
+    }
+
+}
