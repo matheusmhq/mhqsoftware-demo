@@ -13,3 +13,7 @@ Plugins usados:
   Animate - https://daneden.github.io/animate.css/
   
   Wow - https://mynameismatthieu.com/WOW/
+
+Para conhecer mais trabalhos acesse: https://matheusmhq.github.io/
+
+Obrigado! =)
