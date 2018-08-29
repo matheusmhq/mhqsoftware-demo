@@ -298,8 +298,13 @@
     align-items: center;
 }
 
-.logofooter {
+.divfb a {
+    color: white;
+    text-decoration: underline;
+}
+
+/*.logofooter {
     background: url(../_img/logos/logo-mobile.png) no-repeat center;
     width: 100px;
     height: 41px;
-}
+}*/
